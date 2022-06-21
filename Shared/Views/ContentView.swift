@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    //reference view model
+    @ObservedObject var model = RecipeModel()
+    
     var body: some View {
         Text("Hello, world!")
             .padding()
