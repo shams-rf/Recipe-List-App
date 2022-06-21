@@ -10,4 +10,10 @@ import Foundation
 class RecipeModel: ObservableObject {
     
     @Published var recipes = [Recipe]()
+    
+    init() {
+        
+        //create instance of DataService and get the data
+        self.recipes = DataService.getLocalData()
+    }
 }
