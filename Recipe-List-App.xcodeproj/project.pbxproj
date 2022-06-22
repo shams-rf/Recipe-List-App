@@ -21,6 +21,8 @@
 		DBBE6C4F2861CC5D004B1361 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBE6C4D2861CC5D004B1361 /* RecipeModel.swift */; };
 		DBBE6C512861CDBB004B1361 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBE6C502861CDBB004B1361 /* DataService.swift */; };
 		DBBE6C522861CDBB004B1361 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBE6C502861CDBB004B1361 /* DataService.swift */; };
+		DBF3F3C92863330D0097CC1E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3F3C82863330D0097CC1E /* DetailView.swift */; };
+		DBF3F3CA2863330D0097CC1E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF3F3C82863330D0097CC1E /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,7 @@
 		DBBE6C4A2861C9AC004B1361 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		DBBE6C4D2861CC5D004B1361 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		DBBE6C502861CDBB004B1361 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		DBF3F3C82863330D0097CC1E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				DBBE6C252861C438004B1361 /* ContentView.swift */,
+				DBF3F3C82863330D0097CC1E /* DetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -235,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBBE6C4B2861C9AC004B1361 /* Recipe.swift in Sources */,
+				DBF3F3C92863330D0097CC1E /* DetailView.swift in Sources */,
 				DBBE6C4E2861CC5D004B1361 /* RecipeModel.swift in Sources */,
 				DBBE6C362861C439004B1361 /* ContentView.swift in Sources */,
 				DBBE6C342861C439004B1361 /* Recipe_List_AppApp.swift in Sources */,
@@ -247,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBBE6C4C2861C9AC004B1361 /* Recipe.swift in Sources */,
+				DBF3F3CA2863330D0097CC1E /* DetailView.swift in Sources */,
 				DBBE6C4F2861CC5D004B1361 /* RecipeModel.swift in Sources */,
 				DBBE6C372861C439004B1361 /* ContentView.swift in Sources */,
 				DBBE6C352861C439004B1361 /* Recipe_List_AppApp.swift in Sources */,
