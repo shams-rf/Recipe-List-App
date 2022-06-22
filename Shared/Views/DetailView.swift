@@ -54,7 +54,7 @@ struct DetailView: View {
                 }
                 .padding(.horizontal)
             }
-        }
+        }.navigationBarTitle(recipe.name)
     }
 }
 
