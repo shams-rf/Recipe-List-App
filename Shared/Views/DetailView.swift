@@ -15,35 +15,44 @@ struct DetailView: View {
         
         ScrollView {
             
-            // MARK: recipe image
-            Image(recipe.image)
-                .resizable()
-                .scaledToFill()
-            
-            // MARK: ingredients
             VStack(alignment: .leading) {
                 
-                Text("Ingredients")
-                    .font(.headline)
-                    .padding(.bottom, 5)
+                // MARK: recipe image
+                Image(recipe.image)
+                    .resizable()
+                    .scaledToFill()
                 
-                ForEach (recipe.ingredients, id:\.self) { item in
+                // MARK: ingredients
+                VStack(alignment: .leading) {
                     
-                    Text("• " + item)
-                }
-            }
-            
-            // MARK: directions
-            VStack(alignment: .leading) {
-                
-                Text("Directions")
-                    .font(.headline)
-                    .padding(.bottom, 5)
-                
-                ForEach (recipe.directions, id:\.self) { item in
+                    Text("Ingredients")
+                        .font(.headline)
+                        .padding([.bottom, .top], 5)
                     
-                    Text(item)
+                    ForEach (recipe.ingredients, id:\.self) { item in
+                        
+                        Text("• " + item)
+                    }
                 }
+                .padding(.horizontal)
+                
+                //divider
+                Divider()
+                
+                // MARK: directions
+                VStack(alignment: .leading) {
+                    
+                    Text("Directions")
+                        .font(.headline)
+                        .padding([.bottom, .top], 5)
+                    
+                    ForEach (0..<recipe.directions.count, id:\.self) { index in
+                        
+                        Text(String(index + 1) + ". " + recipe.directions[index])
+                            .padding(.bottom, 5)
+                    }
+                }
+                .padding(.horizontal)
             }
         }
     }
