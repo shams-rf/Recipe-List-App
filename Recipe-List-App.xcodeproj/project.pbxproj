@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB36E6C0287EF0C9009CC6C2 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB36E6BF287EF0C9009CC6C2 /* TabView.swift */; };
+		DB36E6C1287EF0C9009CC6C2 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB36E6BF287EF0C9009CC6C2 /* TabView.swift */; };
 		DBBE6C342861C439004B1361 /* Recipe_List_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBE6C242861C438004B1361 /* Recipe_List_AppApp.swift */; };
 		DBBE6C352861C439004B1361 /* Recipe_List_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBE6C242861C438004B1361 /* Recipe_List_AppApp.swift */; };
 		DBBE6C362861C439004B1361 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBE6C252861C438004B1361 /* ContentView.swift */; };
@@ -26,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB36E6BF287EF0C9009CC6C2 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		DBBE6C242861C438004B1361 /* Recipe_List_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe_List_AppApp.swift; sourceTree = "<group>"; };
 		DBBE6C252861C438004B1361 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DBBE6C262861C439004B1361 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -110,6 +113,7 @@
 			children = (
 				DBBE6C252861C438004B1361 /* ContentView.swift */,
 				DBF3F3C82863330D0097CC1E /* DetailView.swift */,
+				DB36E6BF287EF0C9009CC6C2 /* TabView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -242,6 +246,7 @@
 				DBF3F3C92863330D0097CC1E /* DetailView.swift in Sources */,
 				DBBE6C4E2861CC5D004B1361 /* RecipeModel.swift in Sources */,
 				DBBE6C362861C439004B1361 /* ContentView.swift in Sources */,
+				DB36E6C0287EF0C9009CC6C2 /* TabView.swift in Sources */,
 				DBBE6C342861C439004B1361 /* Recipe_List_AppApp.swift in Sources */,
 				DBBE6C512861CDBB004B1361 /* DataService.swift in Sources */,
 			);
@@ -255,6 +260,7 @@
 				DBF3F3CA2863330D0097CC1E /* DetailView.swift in Sources */,
 				DBBE6C4F2861CC5D004B1361 /* RecipeModel.swift in Sources */,
 				DBBE6C372861C439004B1361 /* ContentView.swift in Sources */,
+				DB36E6C1287EF0C9009CC6C2 /* TabView.swift in Sources */,
 				DBBE6C352861C439004B1361 /* Recipe_List_AppApp.swift in Sources */,
 				DBBE6C522861CDBB004B1361 /* DataService.swift in Sources */,
 			);
