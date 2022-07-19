@@ -26,7 +26,7 @@ struct RecipeFeaturedView: View {
                 TabView {
                     
                     //loop through each recipe
-                    ForEach (0..<model.recipes.count) { index in
+                    ForEach (0..<model.recipes.count, id:\.self) { index in
                         
                         //only show those that are featured
                         if model.recipes[index].featured == true {
