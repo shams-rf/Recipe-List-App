@@ -11,6 +11,8 @@ struct DetailView: View {
     
     var recipe:Recipe
     
+    @State var selectedServingSize = 2
+    
     var body: some View {
         
         ScrollView {
@@ -21,6 +23,24 @@ struct DetailView: View {
                 Image(recipe.image)
                     .resizable()
                     .scaledToFill()
+                
+                //MARK: serving size picker
+                VStack (alignment: .leading) {
+                    
+                    Text("Select your serving size:")
+                        .font(.headline)
+                    
+                    Picker("", selection: $selectedServingSize) {
+                        
+                        Text("2").tag(2)
+                        Text("4").tag(4)
+                        Text("6").tag(6)
+                        Text("8").tag(8)
+                    }
+                    .pickerStyle(SegmentedPickerStyle())
+                    .frame(width: 160)
+                }
+                .padding()
                 
                 // MARK: ingredients
                 VStack(alignment: .leading) {
