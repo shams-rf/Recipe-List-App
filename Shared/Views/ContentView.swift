@@ -21,7 +21,7 @@ struct ContentView: View {
                 Text("All Recipes")
                     .bold()
                     .padding(.top, 40)
-                    .font(.largeTitle)
+                    .font(Font.custom("Avenir Heavy", size: 30))
                 
                 ScrollView {
                     

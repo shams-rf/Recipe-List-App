@@ -29,7 +29,7 @@ struct DetailView: View {
                     .bold()
                     .padding(.top, 20)
                     .padding(.leading)
-                    .font(.largeTitle)
+                    .font(Font.custom("Avenir Heavy", size: 30))
                 
                 //MARK: serving size picker
                 VStack (alignment: .leading) {
