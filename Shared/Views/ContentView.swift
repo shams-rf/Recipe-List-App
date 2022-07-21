@@ -46,9 +46,8 @@ struct ContentView: View {
                                     VStack (alignment: .leading) {
                                         
                                         Text(r.name)
-                                            .font(.title3)
+                                            .font(Font.custom("Avenir Heavy", size: 16))
                                         .foregroundColor(.black)
-                                        .bold()
                                         
                                         RecipeHighlights(highlights: r.highlights)
                                             .foregroundColor(.black)
