@@ -81,7 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				DBBE6C232861C438004B1361 /* Shared */,
-				DB8CEBE42888ADB30072C9F0 /* Utilities */,
 				DBBE6C262861C439004B1361 /* Assets.xcassets */,
 				DBBE6C322861C439004B1361 /* macOS */,
 				DBBE6C2C2861C439004B1361 /* Products */,
@@ -97,6 +96,7 @@
 				DBBE6C422861C8A5004B1361 /* Models */,
 				DBBE6C462861C8C8004B1361 /* Services */,
 				DBBE6C452861C8B9004B1361 /* Data */,
+				DB8CEBE42888ADB30072C9F0 /* Utilities */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
